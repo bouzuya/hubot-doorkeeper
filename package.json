@@ -1,6 +1,6 @@
 {
   "name": "hubot-doorkeeper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Hubot script that display the doorkeeper events",
   "main": "index.js",
   "scripts": {
