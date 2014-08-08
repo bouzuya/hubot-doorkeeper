@@ -1,0 +1,37 @@
+{
+  "name": "hubot-doorkeeper",
+  "version": "0.0.0",
+  "description": "A Hubot script that display the doorkeeper events",
+  "main": "index.js",
+  "scripts": {
+    "robot": "hubot --adapter shell",
+    "test": "mocha --require espower-coffee/guess --reporter spec test/**/*.coffee",
+    "watch": "mocha --require espower-coffee/guess --reporter spec test/**/*.coffee --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/hubot-doorkeeper.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "mail": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/hubot-doorkeeper/issues"
+  },
+  "homepage": "https://github.com/bouzuya/hubot-doorkeeper",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "espower-coffee": "^0.1.0",
+    "hubot": "^2.8.0",
+    "mocha": "^1.20.1",
+    "power-assert": "^0.7.2",
+    "sinon": "^1.10.3"
+  }
+}
